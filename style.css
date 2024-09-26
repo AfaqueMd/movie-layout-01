@@ -1,0 +1,32 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.movies{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.movies>div{
+    width: 20rem;
+    height: auto;
+    margin: 1%;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    text-align: center;
+    flex-wrap: wrap;
+}
+.movies img{
+    width: 100%;
+}
+.movies div p a{
+    background-color: skyblue;
+    padding: 0.5rem;
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    font-family: sans-serif;
+}
+.movies div p{
+    margin: 2rem;
+    font-weight: 600;
+}
